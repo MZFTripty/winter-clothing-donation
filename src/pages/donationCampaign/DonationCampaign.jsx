@@ -1,7 +1,5 @@
-import React, { useEffect } from "react";
-import DonationCampaignCard from "src/pages/donationCampaign/DonationCampaignCard";
-
-
+import React, { useEffect } from 'react'
+import DonationCampaignCard from './DonationCampaignCard';
 
 export default function DonationCampaign() {
   const [donationCampaigns, setDonationCampaigns] = React.useState([]);
@@ -35,3 +33,4 @@ export default function DonationCampaign() {
     </>
   );
 }
+
