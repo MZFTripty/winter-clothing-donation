@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
-import DonationCampaignCard from "./donationCampaignCard";
+import DonationCampaignCard from "src/pages/donationCampaign/DonationCampaignCard";
+
+
 
 export default function DonationCampaign() {
   const [donationCampaigns, setDonationCampaigns] = React.useState([]);
